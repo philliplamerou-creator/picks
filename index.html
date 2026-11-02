@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Phillip Has Deals — Picks</title>
+<style>
+body{margin:0;font-family:-apple-system,system-ui,sans-serif;background:#0f0f12;color:#fff}
+header{text-align:center;padding:20px 12px 4px} h1{margin:0;font-size:22px}
+header p{margin:6px 0 10px;color:#aaa;font-size:14px}
+.socs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.soc{background:#1f1f27;color:#fff;text-decoration:none;padding:7px 12px;border-radius:20px;font-size:13px}
+.bar{max-width:720px;margin:12px auto 0;padding:0 12px}
+#q{width:100%;box-sizing:border-box;padding:11px 14px;border-radius:12px;border:0;background:#1f1f27;color:#fff;font-size:15px}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding:10px 0 2px}
+.tab{flex:none;border:0;background:#1f1f27;color:#ccc;padding:7px 12px;border-radius:20px;font-size:13px}
+.tab.on{background:#fe2c55;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;padding:12px;max-width:720px;margin:auto}
+@media(min-width:600px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{position:relative;display:block;background:#1b1b21;border-radius:14px;overflow:hidden;color:#fff;text-decoration:none}
+.card img,.ph{width:100%;aspect-ratio:1;object-fit:contain;background:#fff;display:block}
+.n{position:absolute;top:8px;left:8px;background:#fe2c55;border-radius:10px;padding:2px 8px;font-weight:700;font-size:13px}
+.t{padding:8px 10px 2px;font-size:13px;line-height:1.3;max-height:3.9em;overflow:hidden}
+.b{padding:4px 10px 10px;font-size:12px;color:#25f4ee;font-weight:600}
+.hide{display:none} #none{text-align:center;color:#888;padding:30px}
+footer{color:#777;font-size:11px;text-align:center;padding:16px}
+</style></head><body>
+<header><h1>Phillip Has Deals — Picks</h1><p>Find the number from the video 👇</p><div class="socs"><a class="soc" href="https://www.tiktok.com/@philliphasdeals" target="_blank" rel="noopener">TikTok</a><a class="soc" href="https://www.youtube.com/channel/UCVAknr_GjjvT6qojR8Nfikw" target="_blank" rel="noopener">YouTube</a><a class="soc" href="https://www.instagram.com/phillip_lamerou/" target="_blank" rel="noopener">Instagram</a><a class="soc" href="https://www.facebook.com/profile.php?id=61582336629949" target="_blank" rel="noopener">Facebook</a></div></header>
+<div class="bar"><input id="q" placeholder="Search a product or #number" autocomplete="off">
+<div class="tabs"><button class="tab on" data-c="">All</button></div></div>
+<main class="grid" id="g"></main><div id="none" class="hide">No match — try another word.</div>
+<footer>As an Amazon Associate I earn from qualifying purchases. Links on this page are affiliate links.</footer>
+<script>
+const q=document.getElementById('q'),cards=[...document.querySelectorAll('.card')];let cat='';
+function f(){const v=q.value.trim().toLowerCase().replace(/^#?(\d+)$/,'#$1');let n=0;
+cards.forEach(c=>{const ok=(!cat||c.dataset.cat===cat)&&(!v||c.dataset.q.includes(v));c.classList.toggle('hide',!ok);if(ok)n++});
+document.getElementById('none').classList.toggle('hide',n>0)}
+q.addEventListener('input',f);
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');cat=t.dataset.c;f()});
+const h=location.hash.match(/^#(\d+)$/);if(h){q.value='#'+h[1];f()}
+</script></body></html>
