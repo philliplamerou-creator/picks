@@ -192,7 +192,7 @@
   "tt_url": "https://www.tiktok.com/shop/pdp/1729593048476979669",
   "video": "",
   "added": "2026-11-02T10:19",
-  "sold_out": true
+  "sold_out": false
  },
  {
   "n": 16,
@@ -279,7 +279,7 @@
   "url": "https://www.tiktok.com/shop/pdp/1729589345444205063",
   "img": "img/3bottlesofgolibestsellerbundleashwagandhaksm66applecidervine.jpg",
   "cat": "Supplements",
-  "price": "$36.00",
+  "price": "$35.97",
   "tt_url": "https://www.tiktok.com/shop/pdp/1729589345444205063",
   "video": "",
   "added": "2026-11-02T10:19",
@@ -608,6 +608,19 @@
   "tt_url": "https://www.tiktok.com/shop/pdp/1732751396747317451",
   "video": "It's not one\u2026 It's not two\u2026 \ud83d\udd25\ud83d\udd25\nShameless Snacks Rockers Sour Candies\n#TikTokShopBlackFriday #TikTokShopCreatorPicks #Dis",
   "added": "2026-11-07T18:07",
+  "sold_out": false
+ },
+ {
+  "n": 48,
+  "key": "save36silkysmoothbodyduoegfguashacreamegftoxtonerbodycareroutineathomeglowsmooth",
+  "title": "[SAVE 36%] Silky Smooth Body Duo | EGF Gua Sha Cream + EGF Tox Toner | Body Care Routine at Home | Glow, Smooth, Anti-aging Korean Skincare Set",
+  "url": "https://www.tiktok.com/shop/pdp/1732732028104184444",
+  "img": "img/save36silkysmoothbodyduoegfguashacreamegftoxtonerbodycarerou.jpg",
+  "cat": "Skincare & Beauty",
+  "price": "$10.00",
+  "tt_url": "https://www.tiktok.com/shop/pdp/1732732028104184444",
+  "video": "It's not one\u2026 but it's two\u2026 \ud83d\udd25\ud83d\udd25\nSAVE 36% Silky Smooth Body Duo EGF Gua Sha\n#TikTokShopBlackFriday #TikTokShopCreatorPicks",
+  "added": "2026-11-08T17:19",
   "sold_out": false
  }
 ]
