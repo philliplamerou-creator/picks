@@ -218,7 +218,7 @@
   "tt_url": "https://www.tiktok.com/shop/pdp/1731768711356912414",
   "video": "",
   "added": "2026-11-02T10:19",
-  "sold_out": false
+  "sold_out": true
  },
  {
   "n": 18,
@@ -279,7 +279,7 @@
   "url": "https://www.amazon.com/dp/B0FHJH85NH?tag=philliphasdea-20",
   "img": "img/3bottlesofgolibestsellerbundleashwagandhaksm66applecidervine.jpg",
   "cat": "Supplements",
-  "price": "$36.00",
+  "price": "$30.85",
   "tt_url": "https://www.tiktok.com/shop/pdp/1729589345444205063",
   "video": "",
   "added": "2026-11-02T10:19",
@@ -435,7 +435,7 @@
   "url": "https://www.tiktok.com/shop/pdp/1732555490599014701",
   "img": "img/oneblade360faceonebladeintimatepubicgroomerbundle.jpg",
   "cat": "Home & Gadgets",
-  "price": "$52.46",
+  "price": "$50.89",
   "tt_url": "https://www.tiktok.com/shop/pdp/1732555490599014701",
   "video": "",
   "added": "2026-11-02T10:19",
@@ -881,6 +881,19 @@
   "tt_url": "https://www.tiktok.com/shop/pdp/1732775254864072939",
   "video": "Not one\u2026 Not two\u2026 You can actually get two\u2026 \ud83d\udd25\ud83d\udd25\nmedicube Deep Moisture Body Lotion\n#TikTokShopBlackFriday #TikTokShopCrea",
   "added": "2026-11-14T00:14",
+  "sold_out": false
+ },
+ {
+  "n": 69,
+  "key": "rootlabsalpha10in1shilajitgummies4000mgnewyearnewmeeditionstart2026strongenergys",
+  "title": "Root Labs Alpha 10-in-1 Shilajit Gummies 4000 mg | New Year New Me Edition | Start 2026 Strong | Energy, Stamina & Focus | Zero Sugar | KSM-66 Ashwagandha, Tongkat Ali, Maca | Vega",
+  "url": "https://www.amazon.com/dp/B0F1D14FF8?tag=philliphasdea-20",
+  "img": "img/rootlabsalpha10in1shilajitgummies4000mgnewyearnewmeeditionst.jpg",
+  "cat": "Supplements",
+  "price": "$21.49",
+  "tt_url": "https://www.tiktok.com/shop/pdp/1729493530057150553",
+  "video": "I no longer take Sheila Jit because I take Alpha Gummies\u2026 \ud83d\udd25\ud83d\udd25\nRoot Labs Alpha 10-in-1 Shilajit Gummies\n#TikTokShopBlackFr",
+  "added": "2026-11-14T18:05",
   "sold_out": false
  }
 ]
