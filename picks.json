@@ -218,7 +218,7 @@
   "tt_url": "https://www.tiktok.com/shop/pdp/1731768711356912414",
   "video": "",
   "added": "2026-11-02T10:19",
-  "sold_out": false
+  "sold_out": true
  },
  {
   "n": 18,
@@ -426,7 +426,7 @@
   "tt_url": "https://www.tiktok.com/shop/pdp/1731867786077376832",
   "video": "",
   "added": "2026-11-02T10:19",
-  "sold_out": true
+  "sold_out": false
  },
  {
   "n": 34,
@@ -946,6 +946,19 @@
   "tt_url": "https://www.tiktok.com/shop/pdp/1732655681349587664",
   "video": "It's not one\u2026 It's not two\u2026 \ud83d\udd25\ud83d\udd25\nDr.G Barrier Repair Trio\n#TikTokShopBlackFriday #TikTokShopCreatorPicks #DiscoverYourGift",
   "added": "2026-11-15T18:42",
+  "sold_out": false
+ },
+ {
+  "n": 74,
+  "key": "medicubesmoothclearbodycaresethypochlorousacidbodypeelshotkojicacidturmericbodyw",
+  "title": "[medicube] Smooth & Clear Body Care Set | Hypochlorous Acid Body Peel Shot, Kojic Acid Turmeric Body Wash, Toner Pad, Toner, Mist | Exfoliating for Dead Skin Cells & Excess Sebum &",
+  "url": "https://www.tiktok.com/shop/pdp/1732052189676081387",
+  "img": "img/medicubesmoothclearbodycaresethypochlorousacidbodypeelshotko.jpg",
+  "cat": "Skincare & Beauty",
+  "price": "$29.99",
+  "tt_url": "https://www.tiktok.com/shop/pdp/1732052189676081387",
+  "video": "You're getting all of this from MediCube right here\u2026 \ud83d\udd25\ud83d\udd25\nmedicube Smooth & Clear Body Care Set\n#TikTokShopBlackFriday #Ti",
+  "added": "2026-11-18T17:54",
   "sold_out": false
  }
 ]
